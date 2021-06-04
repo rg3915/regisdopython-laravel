@@ -14,6 +14,14 @@ Este material foi usado na Live do [Regis do Python](https://www.youtube.com/wat
 Onde falamos sobre como [Construir uma API com VueJS e Laravel](https://www.youtube.com/watch?v=BNWBAAC38SQ).
 
 
+## Rodando com Docker
+
+https://hub.docker.com/r/bitnami/laravel/
+
+```
+docker-compose up
+docker-compose exec myapp php artisan migrate:fresh --seed
+```
 
 ## About Laravel
 
